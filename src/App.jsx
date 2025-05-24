@@ -1,10 +1,10 @@
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl text-violet-300 font-robert-medium">
-        React App Initialization
-      </h1>
-    </div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero />
+    </main>
   );
 }
 
